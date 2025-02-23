@@ -2,6 +2,8 @@
 
 const nextConfig = {
   output: "export",
+  basePath: "/cyber-security-club",
+  assetPrefix: "/cyber-security-club/",
   images: {
     unoptimized: true,
     remotePatterns: [
