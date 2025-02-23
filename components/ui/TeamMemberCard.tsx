@@ -40,7 +40,7 @@ export const TeamMemberCard = ({ member }: { member: TeamMember }) => (
         </div>
       )}
     </div>
-    <h3 className="text-lg font-semibold text-blue-500">{member.name}</h3>
-    <p className="text-sm text-blue-400/70">{member.position}</p>
+    <h3 className="text-lg font-semibold text-blue-500 text-center">{member.name}</h3>
+    <p className="text-sm text-blue-400/70 text-center">{member.position}</p>
   </motion.div>
 ); 
