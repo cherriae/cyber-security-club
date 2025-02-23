@@ -132,7 +132,7 @@ export const MobileSidebar = ({
       >
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/imgs/logo.png"
+            src="/cyber-security-club/imgs/logo.png"
             width={24}
             height={24}
             alt="Logo"

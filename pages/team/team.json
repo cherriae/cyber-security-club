@@ -2,11 +2,13 @@
   "teamMembers": [
     {
       "name": "Syet",
+      "image": "/cyber-security-club/imgs/team/syet.png",
       "position": "President"
     },
     {
       "name": "Jerry",
-      "position": "Web Master"
+      "image": "/cyber-security-club/imgs/team/jerry.png",
+      "position": "Web Frontend Developer"
     }
   ]
 }

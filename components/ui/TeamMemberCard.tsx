@@ -4,7 +4,7 @@ import Image from "next/image";
 export interface TeamMember {
   name: string;
   position: string;
-  imageUrl?: string;
+  image?: string;
 }
 
 export const TeamMemberCard = ({ member }: { member: TeamMember }) => (
@@ -16,9 +16,9 @@ export const TeamMemberCard = ({ member }: { member: TeamMember }) => (
     transition={{ duration: 0.5 }}
   >
     <div className="w-24 h-24 rounded-full bg-blue-500/20 mb-4 overflow-hidden">
-      {member.imageUrl ? (
+      {member.image ? (
         <Image
-          src={member.imageUrl}
+          src={member.image}
           alt={member.name}
           width={96}
           height={96}

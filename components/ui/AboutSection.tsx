@@ -19,7 +19,7 @@ export const TerminalWindow = () => (
       <div className="w-3 h-3 rounded-full bg-green-500"></div>
     </div>
     <Image 
-      src="/imgs/about.png" 
+      src="/cyber-security-club/imgs/about.png" 
       alt="Your description"
       width={1920}
       height={1080}

@@ -138,7 +138,7 @@ export function Navbar() {
                                     href: "/login",
                                     icon: (
                                         <Image
-                                            src="/imgs/default_profile.png"
+                                            src="/cyber-security-club/imgs/default_profile.png"
                                             className="h-7 w-7 flex-shrink-0 rounded-full"
                                             width={50}
                                             height={50}

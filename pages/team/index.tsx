@@ -22,7 +22,7 @@ export default function TeamPage() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
           {teamData.teamMembers.map((member, index) => (
-            <TeamMemberCard key={index} member={member} />
+            <TeamMemberCard key={index} member={member}  />
           ))}
         </div>
       </motion.div>
