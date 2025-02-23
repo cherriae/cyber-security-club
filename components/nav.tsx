@@ -80,7 +80,7 @@ export function Navbar() {
                                 href="/"
                                 className="font-normal flex space-x-2 items-center text-sm text-white py-1 relative"
                             >
-                                <div className="h-5 w-6 bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0" />
+                                <Image src="/cyber-security-club/imgs/logo.png" alt="Cyber Security Club Logo" width={50} height={50} className="flex-shrink-0 rounded-full"/>
                                 <motion.span
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
