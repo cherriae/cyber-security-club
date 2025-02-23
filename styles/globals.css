@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'HackerFont';
+  src: url('/fonts/ShareTechMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main {
+  font-family: 'HackerFont', Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'HackerFont', Arial, Helvetica, sans-serif;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.typing-animation {
+  animation: typing 2s steps(20) infinite;
+}
+
+.typing-animation-delay-1 {
+  animation: typing 2s steps(20) infinite;
+  animation-delay: 0.5s;
+}
+
+.typing-animation-delay-2 {
+  animation: typing 2s steps(20) infinite;
+  animation-delay: 1s;
+}
+
+.typing-animation-delay-3 {
+  animation: typing 2s steps(20) infinite;
+  animation-delay: 1.5s;
+}

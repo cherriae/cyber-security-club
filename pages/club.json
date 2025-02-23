@@ -1,0 +1,54 @@
+{
+  "meetings": {
+    "weekly": [
+      {
+        "day": "Tuesday",
+        "time": "3:30 PM - 5:30 PM",
+        "description": "Weekly Meeting",
+        "location": "Room 3E10"
+      },
+      {
+        "day": "Thursday",
+        "time": "3:30 PM - 5:30 PM",
+        "description": "Weekly Meeting",
+        "location": "Room 3E10"
+      }
+    ],
+    "exceptions": [
+      {
+        "date": "2025-05-13",
+        "description": "Finals Week - No Meeting",
+        "type": "cancelled"
+      },
+      {
+        "date": "2025-04-24",
+        "description": "Special Tournament",
+        "type": "special"
+      }
+    ]
+  },
+  "tournaments": [
+    {
+      "title": "Capture The Flag Challenge",
+      "description": "Test your skills in web exploitation, cryptography, and reverse engineering",
+      "prize": "1st Place: $500, 2nd Place: $300, 3rd Place: $200",
+      "date": "2025-04-14"
+    },
+    {
+      "title": "Cyber Defense Competition",
+      "description": "Defend your infrastructure against real-world attack scenarios",
+      "prize": "Team Prize Pool: $1000",
+      "date": "2025-05-24"
+    },
+    {
+      "title": "Spring CTF 2024",
+      "description": "Beginner-friendly capture the flag competition",
+      "date": "2024-03-15"
+    },
+    {
+      "title": "Summer Hack Challenge",
+      "description": "Advanced penetration testing competition",
+      "date": "2024-06-20"
+    }
+  ]
+}

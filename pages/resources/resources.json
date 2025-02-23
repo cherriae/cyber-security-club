@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "title": "Math Crypto",
+      "description": "A collection of resources for learning about cryptography and mathematics.",
+      "icon": "math",
+      "link": "https://www.math.brown.edu/johsilve/MathCrypto/SampleSections.pdf"
+    },
+    {
+      "title": "CTF Challenges",
+      "description": "Practice your skills with Capture The Flag challenges from platforms like HackTheBox, TryHackMe, and VulnHub.",
+      "icon": "ctf",
+      "link": "https://www.hackthebox.com/"
+    }
+  ]
+}
